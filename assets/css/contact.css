@@ -1,0 +1,221 @@
+	
+body {
+    position: absolute;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: white;
+    background: #F5F5F5;
+    height: 1000px;
+
+}
+
+#menu {
+	position: fixed;
+	background: black;
+	width: 1300px;
+	height: 60px;
+	margin: 0px; 
+	border: 0px;
+	top: 0px;
+	right: 0px;
+	font-size: 18px; 
+	z-index: 90;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left; 
+    padding: 20px;
+    margin: 0px;
+    top: 0px;
+    position: relative;
+    left: 80px;
+}
+
+.select {
+	display: block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.select:hover {
+	background: #DAA520;
+	margin: 0px;
+	border: 0px;
+}
+#aboutdrop {
+	position: relative;
+    display: inline-block;
+}
+.about {
+	visibility: hidden;
+	position: absolute;
+	background: black;
+	width: 100px;
+	height: 100px;
+	padding: 15px;
+	top: 61px;
+	left: 0px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-bottom: hidden;
+	opacity: .6;
+}
+.team {
+	position: absolute;
+	left: 0px;
+	visibility: hidden;
+	background: black;
+	top: 118px;
+	width: 100px;
+	padding: 15px;
+	padding-bottom: 15px;
+	height: 300px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	opacity: .6;
+}
+
+.select:hover .about {
+	visibility: visible;
+    height: 25px;
+}
+
+.select:hover .team {
+	visibility: visible;
+	height: 25px;
+}
+
+.about:hover {
+	border-color: #1E90FF;
+	opacity: 1;
+}
+.team:hover {
+	border-color: #1E90FF;
+	opacity: 1;
+}
+#picture {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 5;
+	border-left-style: solid;
+	border-width: 2px;
+	border-color: gray; 
+}
+#title {
+	color: #4682B4;
+	left: 210px;
+	top: 120px;
+	font-size: 50px;
+	position: absolute;
+	width: 400px;
+	height: 50px;
+	font-style: bold;
+
+}
+.line {
+	background: #4682B4;
+	width: 600px;
+	height: 3px;
+	position: absolute;
+	top: 180px;
+	left: 42px;
+}
+#blurb {
+	color: black;
+	position: absolute;
+	top: 280px;
+	font-size: 20px;
+	width: 560px;
+	top: 210px;
+	left: 80px;
+}
+#emailtitle {
+	color: #4682B4;
+	left: 20px;	
+	font-size: 25px;
+	top: 350px;
+	position: absolute;
+}
+.name1 {
+	color: black;
+	left: 50px;	
+	font-size: 18px;
+	top: 410px;
+	position: absolute;
+	width: 500px;
+}
+.email1 {
+	color: black;
+	left: 70px;	
+	font-size: 18px;
+	top: 440px;
+	position: absolute;
+	width: 500px;
+}
+.name2 {
+	color: black;
+	left: 50px;	
+	font-size: 18px;
+	top: 500px;
+	position: absolute;
+	width: 500px;
+}
+.email2 {
+	color: black;
+	left: 70px;	
+	font-size: 18px;
+	top: 530px;
+	position: absolute;
+	width: 500px;
+}
+.line1 {
+	background: #4682B4;
+	width: 600px;
+	height: 3px;
+	position: absolute;
+	top: 380px;
+	left: 20px;
+}
+#phonetitle {
+	color: #4682B4;
+	left: 20px;	
+	font-size: 25px;
+	top: 590px;
+	position: absolute;
+}
+.line2 {
+	background: #4682B4;
+	width: 600px;
+	height: 3px;
+	position: absolute;
+	top: 620px;
+	left: 20px;
+}
+
+.call {
+	color: black;
+	left: 50px;	
+	font-size: 18px;
+	top: 650px;
+	position: absolute;
+	width: 500px;
+}
+.number {
+	color: black;
+	left: 70px;	
+	font-size: 18px;
+	top: 680px;
+	position: absolute;
+	width: 500px;
+}

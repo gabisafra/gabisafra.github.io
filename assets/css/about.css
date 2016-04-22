@@ -1,0 +1,289 @@
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+    background: #F5F5F5;
+    color: white;
+    height: 1500px;
+    background-repeat: no-repeat;
+    position: relative;
+ 
+}
+
+
+#menu {
+	position: fixed;
+	background: black;
+	width: 1300px;
+	height: 60px;
+	margin: 0px; 
+	border: 0px;
+	top: 0px;
+	right: 0px;
+	font-size: 18px; 
+    cursor: default;
+    z-index: 100;
+ }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu:.a {
+	text-decoration: none;
+}
+
+
+li {
+    float: left; 
+    padding: 20px;
+    margin: 0px;
+    top: 0px;
+    position: relative;
+    left: 80px;
+}
+
+.select {
+	display: block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+
+}
+.select:hover {
+	background: #DAA520;
+	margin: 0px;
+	border: 0px;
+}
+#aboutdrop {
+	position: relative;
+    display: inline-block;
+    z-index: 90;
+}
+.about {
+	visibility: hidden;
+	position: absolute;
+	background: black;
+	width: 100px;
+	height: 100px;
+	padding: 15px;
+	top: 61px;
+	left: 0px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-bottom: hidden;
+	opacity: .6;
+	z-index: 90;
+	cursor: pointer;
+    pointer-events: none;
+    text-decoration: none;
+}
+.a: link {
+		text-decoration: none;
+} 
+.a.index.html: visited {
+	text-decoration: none;
+}
+
+
+.team {
+	position: absolute;
+	left: 0px;
+	visibility: hidden;
+	background: black;
+	top: 118px;
+	width: 100px;
+	padding: 15px;
+	padding-bottom: 15px;
+	height: 300px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	opacity: .6;
+	z-index: 90;
+}
+
+.select:hover .about {
+	visibility: visible;
+    height: 25px;
+}
+
+.select:hover .team {
+	visibility: visible;
+	height: 25px;
+}
+
+.about:hover {
+	border-color: #1E90FF;
+	opacity: 1;
+}
+.team:hover {
+	border-color: #1E90FF;
+	opacity: 1;
+}
+
+.firstsection {
+	height: 700px;
+	background: gray;
+	width: 100%;
+	position: fixed;
+	opacity: 9;
+}
+
+
+.title {
+	color: white;
+	left: 120px;
+	top: 120px;
+	font-size: 70px;
+	position: absolute;
+	width: 700px;
+	height: 50px;
+	font-style: bold;
+	z-index: 50;
+}
+
+.subtitle {
+	color: white;
+	font-size: 25px;
+	z-index: 99px;
+	position: absolute;
+	left: 190px;
+	top: 375px;
+	width: 570px;
+}
+.mark {
+	color: white;
+	left: 20px;
+	top: 60px;
+	font-size: 420px;
+	position: absolute;
+	width: 700px;
+	height: 50px;
+	font-style: bold;
+	z-index: 50;
+}
+
+.brain {
+	right: 30px;
+	position: absolute;
+	top: 80px;
+}
+
+.box {
+	background: #D3D3D3;
+	width: 90%;
+	height: 900px;
+	position: absolute;
+	top: 500px;
+	left: 40px;
+	z-index: 2;
+	border:solid;
+	border-color: #4682B4;
+	border-width: 8px;
+	border-radius: 5px;
+	border-style: outset;
+
+}
+.whobox{
+	background: #F5F5F5;
+	width: 750px;
+	height: 330px;
+	border-radius: 6px;
+	position: absolute;
+	left: 70px;
+	top: 60px;
+	z-index: 20;
+	border-style: outset;
+	border-width: 6px;
+	border-color: #4682B4;
+
+}
+.whotitle {
+	color: white;
+	left: 210px;
+	font-size: 50px;
+	position: absolute;
+	width: 700px;
+	height: 50px;
+	top: 100px;
+	font-style: bold;
+	z-index: 50;
+}
+.wholine {
+	background: #4682B4;
+	width: 530px;
+	height: 75px;
+	position: relative;
+	left: 165px;
+	top: 85px;
+	z-index: 40;
+	border-radius: 6px;
+}
+#who {
+	color: black;
+	position: absolute;
+	font-size: 20px;
+	width: 700px;
+	text-align: left;
+	top: 200px;
+	left: 100px;
+	z-index: 20;
+
+}
+.partnertitle {
+	color: white;
+	right: 135px;
+	top: 540px;
+	font-size: 50px;
+	position: absolute;
+	width: 700px;
+	height: 50px;
+	font-style: bold;
+	z-index: 50;
+}
+.partnerline {
+	background: #4682B4;
+	width: 530px;
+	height: 75px;
+	position: relative;
+	top: 455px;
+	left: 220px;
+	z-index: 30;
+	border-radius: 6px;
+}
+#partner {
+	color: black;
+	position: absolute;
+	font-size: 20px;
+	width: 700px;
+	top: 650px;
+	text-align: left;
+	right: 145px;
+	z-index: 40;
+}
+.partnerbox {
+	background: #F5F5F5;
+	width: 750px;
+	height: 310px;
+	border-radius: 6px;
+	top: 500px;
+	position: absolute;
+	right: 150px;
+	z-index: 21;
+	border-style: outset;
+	border-width: 6px;
+	border-color: #4682B4;
+}
+.verticalline {
+	background: #4682B4;
+	z-index: 5;
+	width: 3px;
+	height: 1000px;
+	top: 560px;
+	position: absolute;
+	left: 550;
+}

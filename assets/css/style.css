@@ -1,0 +1,145 @@
+body {
+    background-image: url("../images/berk.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1200px;
+    position: absolute;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: white;
+}
+
+#menu {
+	position: fixed;
+	background: black;
+	width: 1300px;
+	height: 60px;
+	margin: 0px; 
+	border: 0px;
+	top: 0px;
+	right: 0px;
+	font-size: 18px; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left; 
+    padding: 20px;
+    margin: 0px;
+    top: 0px;
+    position: relative;
+    left: 80px;
+}
+
+.select {
+	display: block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.select:hover {
+	background: #DAA520;
+	margin: 0px;
+	border: 0px;
+}
+#aboutdrop {
+	position: relative;
+    display: inline-block;
+}
+.about {
+	visibility: hidden;
+	position: absolute;
+	background: black;
+	width: 100px;
+	height: 100px;
+	padding: 15px;
+	top: 61px;
+	left: 0px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-bottom: hidden;
+	opacity: .6;
+}
+.team {
+	position: absolute;
+	left: 0px;
+	visibility: hidden;
+	background: black;
+	top: 118px;
+	width: 100px;
+	padding: 15px;
+	padding-bottom: 15px;
+	height: 300px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	opacity: .6;
+}
+
+.select:hover .about {
+	visibility: visible;
+    height: 25px;
+}
+
+.select:hover .team {
+	visibility: visible;
+	height: 25px;
+}
+
+.about:hover {
+	border-color: #1E90FF;
+	opacity: 1;
+}
+.team:hover {
+	border-color: #1E90FF;
+	opacity: 1;
+}
+
+
+
+#main {
+	text-align: center;
+	bottom: -200px;
+	position: relative;
+}
+
+.title {
+	color: white;
+	text-align: center;
+	position: relative;
+	font-size: 70px;
+	font-style: bold;
+	right: 220px;
+	font-weight: 40;
+	visibility: visible;
+}
+.subtitle {
+	text-align: center;
+	position: relative;
+	right: 0px;
+	font-size: 40px;
+	font-style: italic;
+	top: 30px;
+}
+.places {
+	text-align: center;
+	position: relative;
+	padding-bottom: 40px;
+	border-top: 15px;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: -500;
+	top: 60px;
+}
+.berk {
+	padding: 10px;
+}
+
