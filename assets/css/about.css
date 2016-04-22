@@ -30,11 +30,6 @@ ul {
 
 }
 
-#menu:.a {
-	text-decoration: none;
-}
-
-
 li {
     float: left; 
     padding: 20px;
@@ -42,6 +37,10 @@ li {
     top: 0px;
     position: relative;
     left: 80px;
+}
+
+a {
+	text-decoration: none;
 }
 
 .select {

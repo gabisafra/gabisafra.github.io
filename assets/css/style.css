@@ -36,6 +36,10 @@ li {
     position: relative;
     left: 80px;
 }
+a {
+	text-decoration: none;
+	color: white;
+}
 
 .select {
 	display: block;
