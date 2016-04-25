@@ -3,7 +3,11 @@
 	<title>Contact Nobel Innovation</title>
 	<link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="assets/css/contact.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/contact.css"/>
+	<script src="assets/js/jquery-2.2.3.min.js"></script>
+	<script src="assets/js/typed.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+
 </head>
 
 <body>
@@ -18,39 +22,55 @@
 					<div class= "team"> <span> OUR TEAM </span> </div>
 				</li> 
 				
-				<li class= "select"> OUR PROGRESS </li>
+				<li class= "select" id="progress"> OUR PROGRESS </li>
 				<li class= "select"> <a href="contact.html"> CONTACT </a> </li>
 			</ul></div>
 		</div>
 	</div>
 
-	<div id="picture"> 
-		<img src="assets/images/rain.png"/> 
+	<div id="picture"> <img src="assets/images/randy.jpg">
 	</div>
 
-	<div id="box">
-		<div id="title"> Contact Us </div>
-		<div class="speech"></div>
-		<div class="person"></div>
+	<div id="boxx">
+		<div id="title"></div>
+		<div class="speech"> <img src="assets/images/speech.png" style="width:400 px; height:400px;"> </img></div> 
+		<!--Created by TMD from Noun Project-->
+		<div class="person"> <img src="assets/images/person.png" style="width:100 px; height:200px;"> </img></div>
+		<!--Created by Buena Buena from Noun Project-->
 	</div>
+	
 
-	<div class="line"> </div>
-	<div id="blurb"> If you have any questions,  comments, or interest in getting involved, please feel free to reach out to us through one of the provided mediums below. Our team would love to hear from you. </div>
-	 
-	<div id="emailtitle"> Email </div>
-		<div class="line1"> </div>
+	<div class="box1">
+		<div id="blurb"> If you have any questions,  comments, or interest in getting involved, please feel free to reach out to us through one of the provided mediums below. Our team would love to hear from you. </div>
+	</div>
+	<div class="phone"> <img src="assets/images/phone.png" style="width:100 px; height:100px;"> </img></div>
+	<!--Created by icon54 from Noun Project-->
+	<div class="mail"> <img src="assets/images/email.png" style="width:100 px; height:100px;"> </img></div>
+	<!--Created by Herbert Spencer from Noun Project-->
+	<!-- <div class="peeps"> <img src="assets/images/peeps.png" style="width:130 px; height:130px;"> </img></div> -->
+	<!--Created by Creative Stall from Noun Project--> 
+	<!-- <div class="camp"> <img src="assets/images/camp.png" style="width:170 px; height:170px;"> </img></div> -->
+	<!--Created by NATAPON CHANTABUTR from Noun Project--> 
+	<div class="line"></div>
 
-		<div class="name1"> Faculty Adviser </div>
-		<div class="email1"> Sara Beckman at beckman@berkeley.edu </div>
 
-		<div class="name2"> Undergrad Project Manager </div>
-		<div class="email2"> Gabija Safranavicius at safranacivicius@berkeley.edu </div>	
+		<div id="box2">
+			<div id="emailtitle"> Email </div>
+				<div class="line1"> </div>
 
-	<div id="phonetitle"> Phone </div>
-		<div class="line2"> </div>
-		<div class="call"> Haas School of Business at
-		UC Berkeley</div>
-		<div class="number">(510) 642-7989</div>
+				<div class="name1"> Faculty Adviser </div>
+				<div class="email1"> Sara Beckman at beckman@berkeley.edu </div>
 
+				<div class="name2"> Undergrad Project Manager </div>
+				<div class="email2"> Gabija Safranavicius at safranacivicius@berkeley.edu </div>	
+		</div>
+
+		<div id="box3">
+			<div id="phonetitle"> Phone </div>
+				<div class="line2"> </div>
+				<div class="call"> Haas School of Business at UC Berkeley</div>
+				<div class="number">(510) 642-7989</div>
+			</div>
+	</div>
 
 </body>

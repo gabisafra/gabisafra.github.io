@@ -27,7 +27,11 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
 
+a {
+	text-decoration: none;
+	color: white;
 }
 
 li {
@@ -39,10 +43,6 @@ li {
     left: 80px;
 }
 
-a {
-	text-decoration: none;
-	color: white;
-}
 
 .select {
 	display: block;
@@ -60,7 +60,6 @@ a {
 #aboutdrop {
 	position: relative;
     display: inline-block;
-    z-index: 90;
 }
 .about {
 	visibility: hidden;
@@ -76,10 +75,6 @@ a {
 	border-width: 1px;
 	border-bottom: hidden;
 	opacity: .6;
-	z-index: 90;
-	cursor: pointer;
-    pointer-events: none;
-    text-decoration: none;
 }
 .a: link {
 		text-decoration: none;
@@ -286,4 +281,26 @@ a {
 	top: 560px;
 	position: absolute;
 	left: 550;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

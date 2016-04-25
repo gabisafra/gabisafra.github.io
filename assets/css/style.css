@@ -8,6 +8,10 @@ body {
     color: white;
 }
 
+.background {
+	opacity: .9;
+}
+
 #menu {
 	position: fixed;
 	background: black;
@@ -25,7 +29,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
 
+a {
+	text-decoration: none;
+	color: white;
 }
 
 li {
@@ -35,10 +43,6 @@ li {
     top: 0px;
     position: relative;
     left: 80px;
-}
-a {
-	text-decoration: none;
-	color: white;
 }
 
 .select {
